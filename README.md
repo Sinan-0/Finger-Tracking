@@ -2,6 +2,9 @@
 
 Hello and welcome to this personal project. The goal is to track the finger in order to draw digits, and use deep learning to recognize the digit drawn. 
 
+<p align="center">
+  ![Alt Text](https://github.com/Sinan-0/Finger-Tracking/blob/master/demo.gif)
+</p>
 ![Alt Text](https://github.com/Sinan-0/Finger-Tracking/blob/master/demo.gif)
 
 

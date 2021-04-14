@@ -8,7 +8,6 @@ from torch.autograd import Variable
 from sklearn.metrics import accuracy_score
 import cv2
 import pandas as pd
-import numpy as np
 
 
 ##Class implementation for the classifier

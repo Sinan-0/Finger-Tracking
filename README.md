@@ -7,9 +7,6 @@ Hello and welcome to this personal project. The goal is to track the finger in o
 </p>
 
 
-![Alt Text](https://github.com/Sinan-0/Finger-Tracking/blob/master/demo.gif)
-
-
 ## Description
 
 To be able to track the finger, we use the template matching method : this method consists in finding a template image in an input image. We use the bult-in function from OpenCV `cv2.matchTemplate` to do so. This method works well when the background is uniform and either black or white (because the background color in the template image is black), but it fails to track the finger when the background is more diverse.

@@ -13,9 +13,9 @@ Then, we need to recognize what is the digit. We build CNN with Pytorch to be ab
 
 ## Technologies used
 
-[NumPy](https://numpy.org/): version 1.18.5
-[pandas](https://pandas.pydata.org/): version 1.0.5
-[PyTorch](https://pytorch.org/): version 1.7.0  
+[NumPy](https://numpy.org/): version 1.18.5<br/>
+[pandas](https://pandas.pydata.org/): version 1.0.5<br/>
+[PyTorch](https://pytorch.org/): version 1.7.0  <br/>
 [OpenCV](https://opencv.org/): version 4.5.1
 
 
@@ -52,9 +52,9 @@ Main script. It has 2 arguments :
 
 If you want to use the classifier trained with handwritten images, and you have a white background, run :
 
-'''
+```
 python track_finger_template.py --classifier handwritten --background_color white
-'''
+```
 
 # Sources
 - cv2 tutorials on python : https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html

@@ -2,7 +2,7 @@
 
 Hello and welcome to this personal project. The goal is to track the finger in order to draw digits, and use deep learning to recognize the digit drawn. 
 
-PUT HERE THE GIF
+![Alt Text](https://github.com/Sinan-0/Finger-Tracking/blob/master/demo.gif)
 
 
 ## Description
@@ -32,10 +32,6 @@ In this folder, we create a classifer trained with handwritten digits
 ### [cnn_img.py](cnn_img.py)
 
 This file contains the classifier class, we will import it in the `track_finger_template.py` file
-
-### [drawing.jpg](drawing.jpg)
-
-Example of a handwritten image
 
 ### [finger_template2.jpg](finger_template2.jpg)
 

@@ -76,10 +76,6 @@ while(True):
     #If the values of maximum are located approximatively at the same location
     dist_w = abs(max_loc_next[0] - max_loc[0]) #distance in width between the current location of the finger and the previous one
     dist_h = abs(max_loc_next[1] - max_loc[1]) #distance in height between the current location of the finger and the previous one
-    #print the distance (if not zero)
-    #if (dist_w!=0) or (dist_h!=0):
-     #   print("dist with math.dist : ", math.dist(max_loc_next, max_loc))
-      #  print("dist with pixels : ", dist_w + dist_h)
         
     #we deal with the case where the detection would bug : dist very high, we want to draw if the location is consistent
     #we also only draw when there is a motion (dist is greater than epsilon)
@@ -94,19 +90,19 @@ while(True):
     ####Print text####
     text = np.zeros((480,640), np.uint8)  #new image where there will be the text     
     #if there is a motion :
-    if count_motionless<=30 :
+    if count_motionless<=20 :
         cv2.putText(text, "Drawing..." ,(30,400),cv2.FONT_HERSHEY_SIMPLEX , 1, (255,255,255),2,cv2.LINE_AA)
     
     #if it's been a long time since there is no motion
-    if count_motionless > 30:
+    if count_motionless > 20:
         cv2.putText(text, "Drawing in pause" ,(30,400),cv2.FONT_HERSHEY_SIMPLEX , 1, (255,255,255),2,cv2.LINE_AA)
         
     #Put the count (normalized to a count over 10)
     cv2.putText(text, "Count : " ,(30,460),cv2.FONT_HERSHEY_SIMPLEX , 1, (255,255,255),2,cv2.LINE_AA)    
-    cv2.putText(text, str(int(count_motionless/10))+"/10" ,(150,460),cv2.FONT_HERSHEY_SIMPLEX , 1, (255,255,255),2,cv2.LINE_AA)
+    cv2.putText(text, str(int(count_motionless/10))+"/5" ,(150,460),cv2.FONT_HERSHEY_SIMPLEX , 1, (255,255,255),2,cv2.LINE_AA)
         
     #if it's been some time, we save the image
-    if count_motionless==100 : 
+    if count_motionless==50 : 
         #save the image
         cv2.imwrite('drawing.jpg', draw) 
         #show that we process the image

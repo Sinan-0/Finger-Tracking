@@ -5,6 +5,8 @@ Hello and welcome to this personal project. The goal is to track the finger in o
 <p align="center">
   ![Alt Text](https://github.com/Sinan-0/Finger-Tracking/blob/master/demo.gif)
 </p>
+
+
 ![Alt Text](https://github.com/Sinan-0/Finger-Tracking/blob/master/demo.gif)
 
 

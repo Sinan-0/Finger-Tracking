@@ -1,6 +1,10 @@
-# Finger-Tracking
-The goal is to draw some symbols (digits for example), and use deep learning to recognize these symbols and do some dedicated actions
+# Finger Tracking
 
+Hello and welcome to this personal project. The goal is to track the finger in order to draw digits, and use deep learning to recognize the digit drawn.
+
+# Description of the files
+
+[track_finger_template.py]
 
 ## Sources
 - cv2 tutorials on python : https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html

@@ -25,15 +25,15 @@ Scipt used to create the data. It has 3 arguments :
 
 Example, if you want to draw the first image of an `2` and you have a black background, run :
 
-'''
+```
 python draw_digit.py --digit 2 --number 0 --background_color black
-'''
+```
 
 Now you drew the first digit of a 2, now if you want to draw a second one run :
 
-'''
+```
 python draw_digit.py --digit 2 --number 1 --background_color black
-'''
+```
 
 ### [finger_template2.jpg](finger_template2.jpg)
 
